@@ -14,7 +14,7 @@ type MyActivity struct {
 	metadata *activity.Metadata
 }
 
-var log = logger.GetLogger("activity-helloworld")
+var log = logger.GetLogger("activity-sms")
 
 // NewActivity creates a new activity
 func NewActivity(metadata *activity.Metadata) activity.Activity {
